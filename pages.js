@@ -97,7 +97,7 @@ const Footer = Vue.component("Bottom", {
 
 const Login = Vue.component("Login", {
   template: `
-    <div class="login-page container">
+    <div class="form-page container">
       <div class="row">
         <h1>Login</h1>
         <div>
@@ -113,7 +113,22 @@ const Login = Vue.component("Login", {
 })
 
 const Signup = Vue.component("Register", {
-  template: `<h1>Register</h1>`
+  template: `
+    <div class="form-page container">
+      <div class="row">
+        <h1>Signup</h1>
+        <div>
+          <form>
+            <input type="text" name="username" placeholder="Username"> <br>
+            <input type="text" name="email" placeholder="Email"> <br>
+            <input type="password" name="password" placeholder="Password"> <br>
+            <input type="password" name="confirm-password" placeholder="Confirm Password"> <br>
+            <button type="submit">submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  `
 })
 
 
