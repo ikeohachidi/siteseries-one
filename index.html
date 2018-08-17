@@ -12,14 +12,20 @@
 <body>
   <!-- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias eum molestiae corrupti impedit nobis optio cum repellat maiores, iure quibusdam ratione velit mollitia sit dolor aliquid maxime, reprehenderit animi expedita? -->
   <div id="app">
-    <div class="navbar container">
+    <nav class="navbar container">
       <Navbar/>
+    </nav>
+    <div>
+      <router-view></router-view>
     </div>
-        <router-view></router-view>
+    <div>
+      <Bottom/>
+    </div>
   </div>
   <noscript>Javascript has to be turned on for site to function properly</noscript>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
   <script src="https://unpkg.com/vue-router@2.0.0/dist/vue-router.js"></script>
+  <script src="pages.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
