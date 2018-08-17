@@ -80,17 +80,9 @@ const Home = Vue.component("Home", {
         </div>
       </div>
 
-      <div class="customer container">
-        <div class="row">
-          <h1>What Customers say</h1>
-        </div>
-      </div>"
-
     </div>
   `
 })
-
-
 
 const Login = Vue.component("Login", {
   template: `<h1>Login</h1>`
