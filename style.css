@@ -48,7 +48,13 @@ h1 {
   border-radius: 2px;
 }
 
-.button-primary:hover {
+button:hover {
+  background: #00E789;
+  transition: 0.4s;
+}
+
+button:hover {
+  background: rgb(0, 170, 102);
   box-shadow: 0px 0px 87px -14px rgba(0,231,137,1);
   transition: 0.2s;
 }
@@ -59,7 +65,7 @@ h1 {
 }
 
 .navbar.container {
-  color: white;
+  z-index: 2;
   position: fixed;
   top: 0;
 }
@@ -72,7 +78,11 @@ h1 {
   margin: 0px 15px;
 }
 
-nav a {
+.router-link-active:hover {
+  color: #00E789;
+}
+
+a {
   color: #fff;
   text-decoration: none;
 }
@@ -84,6 +94,14 @@ nav ul {
 
 .link {
   margin: auto;
+}
+
+.link-color {
+  color: #000;
+}
+
+.link-color:hover {
+  color: #00E789;
 }
 
 .link li {
@@ -167,4 +185,49 @@ nav ul {
 
 .plans div button {
   margin: 40px 0px 20px;
+}
+
+.footer.container {
+  color: #b3b3b3b3;
+  text-align: center;
+  border-top: 2px solid #b3b3b3b3;
+  padding: 20px 0px;
+}
+
+/* Login */
+.login-page.container {
+  background-color: #373959;
+  padding: 70px 0px;
+}
+
+.login-page h1 {
+  text-align: center;
+  color: #fff;
+}
+
+form {
+  display: table;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form input {
+  width: 400px;
+  font-size: 16px;
+  padding: 20px 10px;
+  margin: 5px 0px;
+  border: 2px solid #a7a7a7;
+  border-radius: 3px;
+}
+
+form button {
+  background-color: #00E789;
+  color: #fff;
+  border: 2px solid transparent;
+  font-size: 16px;
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
 }
