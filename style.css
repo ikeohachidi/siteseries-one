@@ -1,0 +1,154 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "josefin sans", sans-serif;
+}
+
+p {
+  line-height: 160%;
+}
+
+h1 {
+  margin: 20px 0px;
+  font-size: 42px;
+}
+
+.container {
+  width: 100%;
+
+}
+
+.button-primary {
+  background-color: #00E789;
+  border: none;
+  padding: 15px 30px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+.button-primary:hover {
+  box-shadow: 0px 0px 87px -14px rgba(0,231,137,1);
+  transition: 0.2s;
+}
+
+.row {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.navbar.container {
+  color: white;
+  position: fixed;
+  top: 0;
+}
+
+.navbar.container .row {
+  padding: 20px;
+}
+
+.login {
+  margin: 0px 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.link {
+  margin: auto;
+}
+
+.link li {
+  margin: 0 10px;
+}
+
+.land.container {
+  padding: 70px 0px 190px;
+  background-color: #373959;
+  color: #fff;
+}
+
+.action {
+  margin-top: 50px;
+  width: 50%;
+}
+
+.action p {
+  margin: 20px 0px;
+}
+
+.action button {
+  margin-top: 20px;
+}
+
+.information.container {
+  background-color: #f8f8f8;
+}
+
+.info {
+  transform: translateY(-80px);
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  box-shadow: 0px 0px 87px -21px rgba(140,140,140,1);
+  border-radius: 8px;
+  padding: 40px;
+  justify-content: space-between;
+}
+
+.info div {
+  width: 32%;
+}
+
+.info div h3 {
+  margin: 15px 0px;
+  color: #1e1f30;
+}
+
+.info div p {
+  color: #000000b3;
+}
+
+.info img {
+  width: 40px;
+}
+
+.info + h1 {
+  text-align: center;
+}
+
+.plans {
+  margin-top: 30px;
+  display: flex;
+  text-align: center;
+}
+
+.plans div {
+  padding: 30px;
+  border-top: 4px solid transparent;
+}
+
+.plans div:hover {
+  background-color: #fff;
+  border-top: 4px solid #539ff7;
+  transform: translateY(-10px);
+  transition: 0.5s;
+  box-shadow: 0px 0px 87px -21px rgba(140,140,140,0.5);
+}
+
+.plans div .price {
+  color: #00E789;
+  font-size: 80px;
+}
+
+.plans div button {
+  margin: 40px 0px 20px;
+}
