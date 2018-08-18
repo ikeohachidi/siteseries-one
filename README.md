@@ -1,3 +1,3 @@
 # siteseries-one
-## Static Website built with Vue.js
+## Static Website built with Vue.js without CLI
 
