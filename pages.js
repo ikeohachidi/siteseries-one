@@ -149,15 +149,3 @@ new Vue({
     hello: "lorem"
   }
 })
-
-// new Vue({
-//   el: "#app",
-//   data: {
-//     hello: "lorem"
-//   },
-//   component: {
-//     "Navbar": Navbar,
-//     "Home": Home,
-//     "Footer": Footer
-//   }
-// })
